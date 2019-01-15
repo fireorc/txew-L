@@ -3,4 +3,4 @@ Disallow: /dn/
 Disallow: /content/
 Disallow: 404.html
 
-Sitemap: http://fury.one/sitemap.xml
+Sitemap: https://lankyta.com/sitemap.xml
