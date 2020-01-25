@@ -6,6 +6,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'bitcoinregular';
+    src: url('bitcoin-webfont.eot');
+    src: url('bitcoin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bitcoin-webfont.woff2') format('woff2'),
+         url('bitcoin-webfont.woff') format('woff'),
+         url('bitcoin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
 	background-color: #FFFFFF;
 	color: #000000;
@@ -62,4 +72,7 @@ html {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
+}
+.bitcoin {
+	font-family: Bitcoin, "bitcoinregular", arial, sans-serif;
 }
